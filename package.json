@@ -1,0 +1,25 @@
+{
+  "name": "sadiq_word_counter",
+  "version": "1.0.0",
+  "description": "A simple command-line tool to count the number of words in a text file or input stream.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "word-counter": "bin/word-counter.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sadiq_Memon",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.19",
+    "sadiq_word_counter": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
